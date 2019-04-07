@@ -1,0 +1,33 @@
+{
+  "name": "@qtk/schema",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "author": "skip",
+  "license": "ISC",
+  "dependencies": {
+    "isobject": "^3.0.1",
+    "semantic-schema": "^0.4.5"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanchu001/qtk-schema.git"
+  },
+  "keywords": [
+    "json-schema",
+    "json",
+    "schema",
+    "object",
+    "semantic"
+  ],
+  "bugs": {
+    "url": "https://github.com/vanchu001/qtk-schema/issues"
+  },
+  "homepage": "https://github.com/vanchu001/qtk-schema#readme"
+}
