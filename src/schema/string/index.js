@@ -1,5 +1,5 @@
 const Base = require('../base');
-const {string: semanticSchema} = require('../../../node_modules/semantic-schema').schema;
+const {string: semanticSchema} = require('../../semantic-schema').schema;
 
 module.exports = class extends Base {
     constructor(pattern) {

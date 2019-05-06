@@ -1,5 +1,5 @@
 const BaseSchema = require('../base');
-const {object: semanticSchema} = require('../../../node_modules/semantic-schema').schema;
+const {object: semanticSchema} = require('../../semantic-schema').schema;
 
 module.exports = class ObjectSchema extends BaseSchema {
     constructor(properties) {

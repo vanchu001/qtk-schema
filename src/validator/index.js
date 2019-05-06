@@ -1,4 +1,4 @@
-const validator = require('semantic-schema').validator;
+const validator = require('../semantic-schema').validator;
 
 module.exports = class Validator {
     /**

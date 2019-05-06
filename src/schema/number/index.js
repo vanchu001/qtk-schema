@@ -1,5 +1,5 @@
 const BaseSchema = require('../base');
-const {number: semanticSchema} = require('../../../node_modules/semantic-schema').schema;
+const {number: semanticSchema} = require('../../semantic-schema').schema;
 
 module.exports = class NumberSchema extends BaseSchema {
     constructor(min = undefined, max = undefined) {

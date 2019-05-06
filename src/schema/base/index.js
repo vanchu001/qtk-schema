@@ -1,4 +1,4 @@
-const SemanticSchema = require('../../../node_modules/semantic-schema/src/schema/base');
+const SemanticSchema = require('../../semantic-schema/src/schema/base');
 
 module.exports = class {
     constructor() {

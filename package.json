@@ -1,16 +1,16 @@
 {
   "name": "@qtk/schema",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/index.js"
   },
-  "author": "skip",
+  "author": "Magnus Lin && Skip",
   "license": "ISC",
   "dependencies": {
     "isobject": "^3.0.1",
-    "semantic-schema": "^0.4.5"
+    "ajv": "^6.5.2"
   },
   "directories": {
     "example": "example"

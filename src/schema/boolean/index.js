@@ -1,5 +1,5 @@
 const BaseSchema = require('../base');
-const {boolean: semanticSchema} = require('../../../node_modules/semantic-schema').schema;
+const {boolean: semanticSchema} = require('../../semantic-schema').schema;
 
 module.exports = class BooleanSchema extends BaseSchema {
     constructor() {

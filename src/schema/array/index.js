@@ -1,5 +1,5 @@
 const BaseSchema = require('../base');
-const {array: semanticSchema} = require('../../../node_modules/semantic-schema').schema;
+const {array: semanticSchema} = require('../../semantic-schema').schema;
 
 module.exports = class ArraySchema extends BaseSchema {
     constructor(item) {
