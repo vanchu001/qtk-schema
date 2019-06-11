@@ -3,6 +3,7 @@
 
 ## 备注
 1.增加title关键字，用于对字段进行简洁描述,desc关键字用于详细描述
+2.增加errorTip关键字，配合@qtk/schema-validator库实现schema校验失败时自定义提示文案
 
 ## 致谢
 感谢Magnus童鞋支持

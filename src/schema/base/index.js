@@ -37,4 +37,12 @@ module.exports = class {
     normalize() {
         return this._semanticSchema;
     }
+
+    /**
+     * 给自定义错误文案提示作支持
+     */
+    errorTip(errorTip) {
+        this._semanticSchema.custom('errorTip', errorTip);
+        return this;
+    }
 };
