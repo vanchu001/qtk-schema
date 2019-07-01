@@ -58,7 +58,7 @@ module.exports = {
         }
         // treat object as object schema
         else if (isObject(sugar)) {
-            return new ObjectSchema().properties(sugar).require(...Object.keys(sugar));
+            return new ObjectSchema().properties(sugar).require(...Object.keys(sugar)).additionalProperties(false);
         }
         // treat regexp as string schema
         else if (isRegExp(sugar)) {
