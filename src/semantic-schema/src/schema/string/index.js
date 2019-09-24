@@ -32,7 +32,7 @@ module.exports = class extends Base {
     }
 
     pattern(regex) {
-        if (regex instanceof RegExp) this._current.set('pattern', regex.source);
+        if (typeof regex === "object" && regex.source !== undefined) this._current.set('pattern', regex.source);
         else this._current.set('pattern', regex);
         return this;
     }
